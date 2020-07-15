@@ -5,9 +5,21 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Include="TribonacciSequence/Tribonacci.fs" />
-    <Compile Include="Program.fs" />
-  </ItemGroup>
-
+ <ItemGroup>
+<Compile Include="CalculateStringRotation.fs" />
+<Compile Include="DigitalCypher.fs" />
+<Compile Include="FirstNonRepeatingCharacter.fs" />
+<Compile Include="GoingToTheCinema.fs" />
+<Compile Include="HelpTheBookSeller.fs" />
+<Compile Include="MostFrequentWeekdays.fs" />
+<Compile Include="MultiplesOf3And5.fs" />
+<Compile Include="Mumbling.fs" />
+<Compile Include="ReducingBySteps.fs" />
+<Compile Include="Remember.fs" />
+<Compile Include="SortInnerContent.fs" />
+<Compile Include="SumOfTwoLowest.fs" />
+<Compile Include="Tribonacci.fs" />
+<Compile Include="WhichAreIn.fs" />
+<Compile Include="GreedIsGood.fs" />
+</ItemGroup>
 </Project>
