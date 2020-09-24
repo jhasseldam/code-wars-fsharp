@@ -22,17 +22,4 @@ let scoreSideCount sideCount =
 
 let score (dice : int list) =
   List.countBy id dice
-<<<<<<< HEAD
   |> List.fold (fun score sideCount -> score + (scoreSideCount sideCount)) 0 
-
-type ValidEmail = Email of string
-
-let sendEmail (email : ValidEmail) =
- ()
-
-let a = sendEmail ""
-
-
-=======
-  |> List.fold (fun score sideCount -> score + (scoreSideCount sideCount)) 0 
->>>>>>> 35f0896c9f6b7b21f70cc4e60f79e9e823e1820b
